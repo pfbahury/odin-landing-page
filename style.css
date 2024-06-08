@@ -99,3 +99,110 @@ a {
     align-items: center;
     background-color: gray;
 }
+
+.info-div{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card-img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid var(--action-color);
+    border-radius: 8px;
+}
+
+.quote-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--quote-background-color);
+    height: 45vh;
+}
+
+.quote-text {
+    padding: 0;
+    font-size: 26px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-reff{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bottom-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+}
+
+.product-placement {
+    background-color: var(--action-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px ;
+}
+
+.bottom-text {
+    padding: 20px;
+    margin-left: 70px;
+}
+
+.bottom-text h3 {
+    margin: 0;
+}
+
+.bottom-text p{
+    margin: 0;
+}
+
+.bottom-btn button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid var(--secondary-text-color);
+    color: var(--secondary-text-color);
+    background-color: var(--action-color);
+    font-size: 16px;
+    border-radius: 8px;
+    margin-right: 70px;
+}
+
+footer {
+    height: 5vh;
+    padding: 10px;
+    display: flex;
+    background-color: var(--dark-background-color);
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    color: var(--secondary-text-color);
+}
